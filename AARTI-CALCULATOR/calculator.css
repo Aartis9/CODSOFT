@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+
+  
+    background-color: #565555;
+}
+.st{
+   background-color: black;
+   /* min-width: 20%;
+   max-width: 40%;
+   min-height: 300px;
+   max-width: 500px;
+    */
+    
+   height: auto;
+   width: 40%;
+   border-radius: 10px;
+   
+   
+   padding: 20px;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+  
+  
+}
+
+.cinput{
+    width: 33%;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    margin:0;
+    border:none;
+}
+.cbutton{
+    width: 20%;
+    height: 50px;
+    font-size: 5x;
+    padding: 5px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.cbutton:hover{
+    background-color: #49634b;
+}
+span{
+    
+    color: rgb(7, 7, 7);
+    text-wrap: wrap;
+    
+}
+.res{
+    background-color: aliceblue;
+    width: 85%;
+    
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+@media(max-width:1000px){
+    
+    .st{
+        width: 100% !important;
+      
+    }
+    .cinput{
+        height:100px;
+    }
+    .res{
+        height:80px;
+        display: flex;
+        align-items: center;
+    }
+    .cbutton{
+        height:100px;
+        font-size:50px;
+    }
+    span{
+    font-size: 50px;
+
+    }
+}
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
