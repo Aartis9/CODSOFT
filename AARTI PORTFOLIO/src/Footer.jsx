@@ -17,7 +17,7 @@ function Footer() {
                 
               </div>
               <div className="footerdown2">
-                    <a href="https://www.linkedin.com/in/aarti-kumari-685606285/ " target="_blank"><FaLinkedin /></a>
+                    <a href="https://www.linkedin.com/in/aarti-kumari-976769308/ " target="_blank"><FaLinkedin /></a>
               </div>
               <div className="footerdown3">
                     <a href="mailto:aartirathore2004@gmail.com"><MdEmail /></a>
